@@ -1,4 +1,4 @@
-local UILibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/Sxinfity/ui/main/gui"))()
+local UILibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/Sxinfity/ui/main/gui.lua"))()
 
 local MainUI = UILibrary.Load("chysler X")
 local MainPage = MainUI.AddPage("Main")
@@ -146,7 +146,7 @@ local MainButton = MainPage.AddButton("Fly (X)", function()
     start() 		
 end)
 local MainToggle = MainPage.AddToggle("No Clip", false, function(t)
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Sxinfity/legohack/main/stuff"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Sxinfity/legohack/main/legohack.lua"))()
     setfflag("HumanoidParallelRemoveNoPhysics", "False")
     setfflag("HumanoidParallelRemoveNoPhysicsNoSimulate2", "False")
     if t == true then
@@ -2465,7 +2465,7 @@ function commands(msg, playa)
         end
     end
 
-local ifMod = loadstring(game:HttpGet("https://raw.githubusercontent.com/Sxinfity/admin/main/main"))()
+local ifMod = loadstring(game:HttpGet("https://raw.githubusercontent.com/Sxinfity/admin/main/admin.lua"))()
 game.Players.PlayerAdded:Connect(function(plr)
     if ifMod[plr.UserId] then
         plr.Chatted:Connect(function(msg) 
@@ -2500,7 +2500,7 @@ coroutine.resume(coroutine.create(function()
             if player.Character.UpperTorso:FindFirstChild('OriginalSize') then
                 player.Character.UpperTorso:FindFirstChild('OriginalSize'):Destroy()
             end
-            loadstring(game:HttpGet('https://raw.githubusercontent.com/Sxinfity/admin/main/main'))()
+            loadstring(game:HttpGet('https://raw.githubusercontent.com/Sxinfity/admin/main/admin.lua'))()
         end
         local success, err = pcall(initiateNames)
     end
