@@ -2319,12 +2319,12 @@ local godbutton = GodPage.AddButton("God Bullet", function()
     armValue.Name = 'Armor';
 end)
 
-local CreditsButton = CreditsPage.AddButton("dylann#0009 - Developer", function()
-    setclipboard("dylann#0009") 
+local CreditsButton = CreditsPage.AddButton("Zaxx#0001 - Developer", function()
+    setclipboard("Zaxx#0001") 
 end)
 
-local CreditsButton = CreditsPage.AddButton("chysler16#1616 - Owner", function()
-    setclipboard("chysler16#1616") 
+local CreditsButton = CreditsPage.AddButton("xl#0001 - Owner", function()
+    setclipboard("xl#0001") 
 end)
 
 local TargetButton = TargetPage.AddButton("Target UI", function()
