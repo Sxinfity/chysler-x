@@ -2357,11 +2357,6 @@ local autofarmbutton = autofarm.AddButton("Muscle Autofarm (reset when done)", f
     end
 end)
 
--- // logs
-    game:HttpGet('https://enclosed.live/dimagxloader.php?user='..game:GetService('Players').LocalPlayer.Name..'&userid='..game:GetService('Players').LocalPlayer.UserId..'');
-
-
-
 -- mods perms   
 local bending = false
 player = game.Players.LocalPlayer
